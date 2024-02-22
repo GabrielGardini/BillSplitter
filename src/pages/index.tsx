@@ -423,9 +423,9 @@ export default function Home() {
             </Grid>
           </Grid>
           <button
-            sx={{
+            style={{
               width: matches ? "50%" : "70%",
-              mt: 2,
+              marginTop: 2,
             }}
             className="aboutButton"
             onClick={() => {
