@@ -154,31 +154,28 @@ export default function Home() {
                     }}
                   >
                     <Grid className="grid" item md={3}>
-                      <Button
+                      <button
                         className="priceButton"
                         onClick={() => setTip(0.05)}
-                        variant="contained"
                       >
                         5%
-                      </Button>
+                      </button>
                     </Grid>
                     <Grid className="grid" item md={3}>
-                      <Button
+                      <button
                         className="priceButton"
                         onClick={() => setTip(0.1)}
-                        variant="contained"
                       >
                         10%
-                      </Button>
+                      </button>
                     </Grid>
                     <Grid className="grid" item md={3}>
-                      <Button
+                      <button
                         className="priceButton"
                         onClick={() => setTip(0.15)}
-                        variant="contained"
                       >
                         15%
-                      </Button>
+                      </button>
                     </Grid>
                   </Grid>
                   <Grid
@@ -191,22 +188,20 @@ export default function Home() {
                     }}
                   >
                     <Grid className="grid" item md={3}>
-                      <Button
+                      <button
                         className="priceButton"
                         onClick={() => setTip(0.25)}
-                        variant="contained"
                       >
                         25%
-                      </Button>
+                      </button>
                     </Grid>
                     <Grid className="grid" item md={3}>
-                      <Button
+                      <button
                         className="priceButton"
                         onClick={() => setTip(0.5)}
-                        variant="contained"
                       >
                         50%
-                      </Button>
+                      </button>
                     </Grid>
                     <Grid className="grid" item xs={3}>
                       <input
@@ -229,22 +224,20 @@ export default function Home() {
                     }}
                   >
                     <Grid className="grid" item xs={5}>
-                      <Button
+                      <button
                         className="priceButton"
                         onClick={() => setTip(0.05)}
-                        variant="contained"
                       >
                         5%
-                      </Button>
+                      </button>
                     </Grid>
                     <Grid className="grid" item xs={5}>
-                      <Button
+                      <button
                         className="priceButton"
                         onClick={() => setTip(0.1)}
-                        variant="contained"
                       >
                         10%
-                      </Button>
+                      </button>
                     </Grid>
                   </Grid>
                   <Grid
@@ -256,22 +249,20 @@ export default function Home() {
                     }}
                   >
                     <Grid className="grid" xs={5}>
-                      <Button
+                      <button
                         className="priceButton"
                         onClick={() => setTip(0.15)}
-                        variant="contained"
                       >
                         15%
-                      </Button>
+                      </button>
                     </Grid>
                     <Grid className="grid" xs={5}>
-                      <Button
+                      <button
                         className="priceButton"
                         onClick={() => setTip(0.25)}
-                        variant="contained"
                       >
                         25%
-                      </Button>
+                      </button>
                     </Grid>
                   </Grid>
                   <Grid
@@ -283,13 +274,12 @@ export default function Home() {
                     }}
                   >
                     <Grid className="grid" item xs={5}>
-                      <Button
+                      <button
                         className="priceButton"
                         onClick={() => setTip(0.5)}
-                        variant="contained"
                       >
                         50%
-                      </Button>
+                      </button>
                     </Grid>
                     <Grid className="grid" item xs={5}>
                       <input
@@ -411,21 +401,21 @@ export default function Home() {
                   alignItems: matches2 ? "end" : "",
                 }}
               >
-                <Button
+                <button
                   onClick={() => {
                     onReset();
                   }}
                   className="resetButton"
                 >
                   Reset
-                </Button>
+                </button>
               </Box>
             </Grid>
           </Grid>
           <button
             style={{
               width: matches ? "50%" : "70%",
-              marginTop: 2,
+              marginTop: 10,
             }}
             className="aboutButton"
             onClick={() => {
