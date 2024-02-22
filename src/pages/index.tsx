@@ -422,7 +422,7 @@ export default function Home() {
               </Box>
             </Grid>
           </Grid>
-          <Button
+          <button
             sx={{
               width: matches ? "50%" : "70%",
               mt: 2,
@@ -433,7 +433,7 @@ export default function Home() {
             }}
           >
             About me
-          </Button>
+          </button>
         </Box>
       </main>
     </Box>
